@@ -25,7 +25,6 @@ name = "isaacsim.sensors.physx.ui"
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -39,7 +38,6 @@ stdoutFailPatterns.exclude = [
 timeout = 900
 dependencies = [
     "isaacsim.test.utils",
-    "omni.isaac.ml_archive",
     "omni.kit.window.stage",
 ]
 args = [

@@ -13,7 +13,6 @@ writeTarget.kit = true
 [dependencies]
 "isaacsim.core.deprecation_manager" = {}
 "isaacsim.util.debug_draw" = {}
-"omni.kit.pip_archive" = {}
 "omni.physics.physx" = {}
 "omni.physics.stageupdate" = {}
 "omni.physx" = {}

@@ -16,7 +16,6 @@ writeTarget.kit = true
 "isaacsim.replicator.experimental.mobility_gen" = {}
 "isaacsim.robot.experimental.wheeled_robots" = {}
 "isaacsim.robot.policy.examples" = {}
-"omni.kit.pip_archive" = {}
 "omni.kit.uiapp" = {}
 
 [[python.module]]

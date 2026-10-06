@@ -6,6 +6,7 @@
         {
             "label": "setup_python_env",
             "type": "shell",
+            "command": "echo 'Preparing Python environment...'",
             "linux": {
                 "command": "export CARB_APP_PATH=${workspaceFolder}/kit && export ISAAC_PATH=${workspaceFolder} && export EXP_PATH=${workspaceFolder}/apps && source ${workspaceFolder}/setup_python_env.sh && printenv >${workspaceFolder}/.vscode/.standalone_examples.env"
             }

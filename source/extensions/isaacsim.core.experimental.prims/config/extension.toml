@@ -17,7 +17,6 @@ writeTarget.kit = true
 "isaacsim.mega.sim_state.client" = { optional = true }
 "isaacsim.test.docstring" = {} # needed for tests to load in test runner
 "omni.hydra.usdrt_delegate" = {}
-"omni.isaac.core_archive" = {}
 "omni.physics" = {}
 "omni.physx.tensors" = {}
 "omni.usd.schema.semantics" = {}

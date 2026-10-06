@@ -15,7 +15,6 @@ writeTarget.kit = true
 "omni.graph.action" = {}
 "omni.graph.visualization.nodes" = {}
 "omni.kit.menu.utils" = {}
-"omni.kit.pip_archive" = {} # pulls in pyperclip
 "omni.kit.property.usd" = {}
 "omni.kit.uiapp" = {}
 "omni.kit.window.extensions" = {}

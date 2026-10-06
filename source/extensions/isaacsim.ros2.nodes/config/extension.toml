@@ -26,7 +26,6 @@ writeTarget.platform = true
 "isaacsim.storage.native" = {}
 "omni.graph" = {}
 "omni.graph.tools" = {}
-"omni.pip.compute" = {}
 "omni.replicator.core" = {}
 "omni.syntheticdata" = {}
 "usdrt.scenegraph" = {}
@@ -71,7 +70,6 @@ dependencies = [
     "isaacsim.robot.wheeled_robots.nodes",
     "isaacsim.sensors.rtx",
     "isaacsim.test.utils",
-    "omni.isaac.ml_archive"
 ]
 pythonTests.exclude = [
     "isaacsim.ros2.nodes.tests.test_camera*test_rgb_golden_image_comparison*",
@@ -174,7 +172,6 @@ dependencies = [
     "isaacsim.robot.wheeled_robots.nodes",
     "isaacsim.sensors.rtx",
     "isaacsim.test.utils",
-    "omni.isaac.ml_archive"
 ]
 
 stdoutFailPatterns.exclude = [

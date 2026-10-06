@@ -13,7 +13,6 @@ writeTarget.kit = true
 [dependencies]
 "isaacsim.asset.importer.utils" = {}
 "isaacsim.asset.transformer.rules" = {}
-"isaacsim.pip.newton" = {}
 "omni.usd.schema.mujoco" = {}
 "omni.usdex.libs" = {}
 

@@ -53,7 +53,6 @@ timeout = 1200
 dependencies = [
     "isaacsim.sensors.rtx",
     "isaacsim.test.utils",
-    "omni.isaac.ml_archive",
 ]
 
 stdoutFailPatterns.exclude = [

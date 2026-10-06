@@ -17,7 +17,6 @@ warning = "Extension deprecated since Isaac Sim 6.0.0 in favor of the Core Exper
 "isaacsim.core.deprecation_manager" = {}
 "isaacsim.core.simulation_manager" = {}
 "isaacsim.core.utils" = {}
-"omni.isaac.core_archive" = {}
 "omni.physx.tensors" = {}
 "omni.usd.schema.semantics" = {}
 "omni.warp.core" = {}
@@ -32,7 +31,6 @@ name = "isaacsim.core.prims.tests"
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -42,7 +40,6 @@ args = [
 timeout = 900
 dependencies = [
     "isaacsim.core.api",
-    "omni.isaac.ml_archive",
     "omni.kit.test",
 ]
 

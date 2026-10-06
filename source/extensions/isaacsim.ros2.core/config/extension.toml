@@ -21,7 +21,6 @@ writeTarget.platform = true
 "isaacsim.sensors.experimental.rtx" = {}
 "isaacsim.sensors.rtx.nodes" = {}
 "isaacsim.storage.native" = {}
-"omni.pip.compute" = {}
 "omni.replicator.core" = {}
 "omni.syntheticdata" = {}
 "usdrt.scenegraph" = {}

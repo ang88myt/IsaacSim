@@ -26,7 +26,6 @@ name = "isaacsim.robot.manipulators.examples"
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -38,7 +37,6 @@ stdoutFailPatterns.exclude = [
 
 [[test]]
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--enable",

@@ -24,7 +24,6 @@ writeTarget.platform = true # pip prebundle makes this extension OS specific
 [dependencies]
 "isaacsim.asset.importer.utils" = {}
 "isaacsim.asset.transformer.rules" = {}
-"isaacsim.pip.newton" = {}
 "omni.usdex.libs" = {}
 
 [[python.module]]

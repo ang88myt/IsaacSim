@@ -14,7 +14,6 @@ writeTarget.kit = true
 "isaacsim.core.nodes" = {}
 "isaacsim.sensors.experimental.physics" = {}
 "omni.graph" = {}
-"omni.kit.pip_archive" = {}
 "omni.timeline" = {}
 "omni.usd" = {}
 "usdrt.scenegraph" = {}

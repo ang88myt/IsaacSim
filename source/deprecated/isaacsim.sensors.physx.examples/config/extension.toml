@@ -34,7 +34,6 @@ name = "isaacsim.sensors.physx.examples.lightbeam_sensor"
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -42,7 +41,6 @@ args = [
 
 [[test]]
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 stdoutFailPatterns.exclude = [
     '*The NumPy module was reloaded*',

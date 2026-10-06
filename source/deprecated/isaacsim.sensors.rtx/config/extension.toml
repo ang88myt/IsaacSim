@@ -26,7 +26,6 @@ warning = "Extension deprecated since Isaac Sim 6.0.0 in favor of the Experiment
 "omni.graph" = {}
 "omni.graph.action" = {}
 "omni.kit.numpy.common" = {}
-"omni.kit.pip_archive" = {} # pulls in numpy
 "omni.replicator.core" = {}
 # Make sure the versions are aligned with source/apps/isaacsim.exp.extscache.kit
 "omni.sensors.nv.common" = {}
@@ -86,7 +85,6 @@ rtx.rtxsensor.useHydraTimeAlways = true
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -95,7 +93,6 @@ args = [
 [[test]]
 timeout = 1200
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 pythonTests.exclude = []
 stdoutFailPatterns.exclude = [

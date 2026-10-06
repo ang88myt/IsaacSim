@@ -17,7 +17,6 @@ feature = true
 "omni.kit.commands" = {}
 "omni.kit.menu.stage" = { optional=true }
 "omni.kit.menu.utils" = {}
-"omni.kit.pip_archive" = {}
 "omni.kit.tool.collect" = { optional=true }
 "omni.kit.viewport.utility" = { }
 "omni.usd" = {}

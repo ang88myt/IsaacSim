@@ -34,8 +34,12 @@
         {
             "label": "setup_python_env",
             "type": "shell",
+            "command": "echo 'Preparing Python environment...'",
             "linux": {
                 "command": "export CARB_APP_PATH=${workspaceFolder}/_build/linux-x86_64/release/kit && export ISAAC_PATH=${workspaceFolder}/_build/linux-x86_64/release && export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${workspaceFolder}/_build/linux-x86_64/release/exts/omni.isaac.ros2_bridge/humble/lib && export EXP_PATH=${workspaceFolder}/_build/linux-x86_64/release/apps && source ${workspaceFolder}/_build/linux-x86_64/release/setup_python_env.sh && printenv >${workspaceFolder}/.vscode/.python_samples.env"
+            },
+            "windows": {
+                "command": "cmd /d /c call \"${workspaceFolder}\\_build\\windows-x86_64\\release\\setup_python_env.bat\" && set > \"${workspaceFolder}\\.vscode\\.python_samples.env\""
             }
         }
     ]

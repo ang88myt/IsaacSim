@@ -12,7 +12,6 @@ writeTarget.kit = true
 
 [dependencies]
 "isaacsim.core.experimental.prims" = {}
-"isaacsim.pip.newton" = {}
 "omni.graph" = {}
 "omni.graph.core" = {}
 "omni.usd" = {}

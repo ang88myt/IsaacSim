@@ -1,0 +1,30 @@
+[core]
+reloadable = true
+order = 0
+
+[package]
+version = "0.2.0"
+category = "Tools"
+title = "LM Studio Local LLM"
+description = "Chat with a local language model served by LM Studio from an Isaac Sim window."
+authors = ["isaac-sim@nvidia.com"]
+repository = "https://github.com/isaac-sim/IsaacSim"
+keywords = ["llm", "lm studio", "local", "chat"]
+changelog = "docs/CHANGELOG.md"
+readme = "docs/Overview.md"
+preview_image = "data/preview.png"
+icon = "data/icon.png"
+writeTarget.kit = true
+
+[dependencies]
+"omni.kit.uiapp" = {}
+
+[[python.module]]
+name = "isaacsim.tools.lm_studio"
+
+[[test]]
+name = "startup"
+timeout = 120
+
+[documentation]
+pages = ["docs/Overview.md", "docs/CHANGELOG.md"]

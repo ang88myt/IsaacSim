@@ -42,7 +42,6 @@ recursive = false
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -60,7 +59,6 @@ stdoutFailPatterns.exclude = [
 
 dependencies = [
     "isaacsim.test.docstring",
-    "omni.isaac.ml_archive",
     "omni.kit.hydra_texture",
 ]
 

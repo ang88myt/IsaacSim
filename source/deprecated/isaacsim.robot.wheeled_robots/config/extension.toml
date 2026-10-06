@@ -16,7 +16,6 @@ warning = "Extension deprecated since Isaac Sim 6.0.0 in favor of isaacsim.robot
 [dependencies]
 "isaacsim.core.api" = {}
 "isaacsim.core.deprecation_manager" = {}
-"omni.isaac.core_archive" = {} # scipy, osqp, qdldl
 "omni.physx" = {}
 
 [[python.module]]
@@ -35,7 +34,6 @@ include = ["*.py"]
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -48,7 +46,6 @@ stdoutFailPatterns.exclude = [
 timeout = 900
 dependencies = [
     "isaacsim.test.utils",
-    "omni.isaac.ml_archive"
 ]
 args = [
     "--enable",

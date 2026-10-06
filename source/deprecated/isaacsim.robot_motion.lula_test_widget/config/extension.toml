@@ -29,7 +29,6 @@ name = "isaacsim.robot_motion.lula_test_widget"
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 
 stdoutFailPatterns.exclude = [    
@@ -38,7 +37,6 @@ stdoutFailPatterns.exclude = [
 
 [[test]]
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 
 stdoutFailPatterns.exclude = [    

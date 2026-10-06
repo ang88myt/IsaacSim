@@ -24,7 +24,6 @@ warning = "Extension deprecated since Isaac Sim 6.0.0 in favor of the Experiment
 "isaacsim.storage.native" = {}
 "omni.graph" = {}
 "omni.kit.numpy.common" = {}
-"omni.kit.pip_archive" = {} # pulls in numpy
 "omni.physics" = {}
 "omni.physics.physx" = {}
 "omni.physx" = {}
@@ -47,7 +46,6 @@ recursive = false
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -57,7 +55,6 @@ args = [
 timeout = 900
 dependencies = [
     "isaacsim.test.utils",
-    "omni.isaac.ml_archive"
 ]
 stdoutFailPatterns.exclude = [
     # This is excluded in at least 3 kit tests.

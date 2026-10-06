@@ -16,7 +16,6 @@ writeTarget.python = true
 "isaacsim.core.experimental.prims" = {}
 "isaacsim.core.experimental.utils" = {}
 "isaacsim.core.simulation_manager" = {}
-"omni.kit.pip_archive" = {}
 "omni.timeline" = {}
 "omni.usd" = {}
 

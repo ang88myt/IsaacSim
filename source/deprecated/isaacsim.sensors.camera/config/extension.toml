@@ -20,7 +20,6 @@ warning = "Extension deprecated since Isaac Sim 6.0.0 in favor of: isaacsim.sens
 "isaacsim.robot.schema" = {}
 "omni.graph" = {}
 "omni.kit.numpy.common" = {}
-"omni.kit.pip_archive" = {} # pulls in numpy
 "omni.replicator.core" = {}
 "omni.syntheticdata" = {}
 "omni.timeline" = {} # Needed for simulation to occur
@@ -38,7 +37,6 @@ public = false
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -51,7 +49,6 @@ dependencies = [
     "isaacsim.core.experimental.objects",
     "isaacsim.test.utils",
     "isaacsim.util.debug_draw",
-    "omni.isaac.ml_archive",
 ]
 "filter:platform"."windows-x86_64".pythonTests.exclude = [
     "isaacsim.sensors.camera.tests.test_single_view_depth_sensor.TestSingleViewDepthSensor.test_getter_setter_methods",
@@ -116,7 +113,6 @@ dependencies = [
     "isaacsim.core.experimental.objects",
     "isaacsim.test.utils",
     "isaacsim.util.debug_draw",
-    "omni.isaac.ml_archive",
 ]
 "filter:platform"."windows-x86_64".pythonTests.include = [
     "isaacsim.sensors.camera.tests.test_single_view_depth_sensor.TestSingleViewDepthSensor.test_getter_setter_methods",
@@ -184,7 +180,6 @@ dependencies = [
     "isaacsim.core.experimental.objects",
     "isaacsim.test.utils",
     "isaacsim.util.debug_draw",
-    "omni.isaac.ml_archive",
 ]
 "filter:platform"."windows-x86_64".pythonTests.include = [
     "isaacsim.sensors.camera.tests.test_single_view_depth_sensor.TestSingleViewDepthSensor.test_depth_sensor_distance_annotator",

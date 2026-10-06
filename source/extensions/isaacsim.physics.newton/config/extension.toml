@@ -12,7 +12,6 @@ writeTarget.kit = true
 
 [dependencies]
 "isaacsim.core.simulation_manager" = {}  # Required for SimulationManager integration
-"isaacsim.pip.newton" = {}  # Newton pip packages
 "omni.physics" = {}  # Required for unified physics interface registration
 "omni.warp.core" = {}
 "usdrt.scenegraph" = {}  # Required for fabric integration

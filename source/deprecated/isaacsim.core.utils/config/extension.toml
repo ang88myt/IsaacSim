@@ -38,7 +38,6 @@ name = "isaacsim.core.utils.tests"
 dependencies = [
     "isaacsim.core.api",
     "isaacsim.sensors.camera",
-    "omni.isaac.ml_archive",
     "omni.replicator.core",
 ]
 

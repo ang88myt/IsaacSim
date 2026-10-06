@@ -26,7 +26,6 @@ name = "isaacsim.asset.exporter.urdf.ui.tests"
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.core_archive",
 ]
 
 [[test]]

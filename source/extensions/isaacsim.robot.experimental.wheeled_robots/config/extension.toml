@@ -14,7 +14,6 @@ writeTarget.kit = true
 "isaacsim.core.experimental.prims" = {}
 "isaacsim.core.experimental.utils" = {}
 "isaacsim.gui.components" = {}
-"omni.isaac.core_archive" = {} # scipy, osqp, qdldl
 "omni.physx" = {}
 
 [[python.module]]

@@ -42,7 +42,6 @@ dependencies = [
     "isaacsim.core.utils",
     "isaacsim.test.docstring",
     "omni.hydra.scene_delegate", # required for fabric time to update,
-    "omni.isaac.ml_archive",
     "omni.kit.test",
     "omni.physx.ui"
 ]
@@ -109,7 +108,6 @@ dependencies = [
     "isaacsim.test.docstring",
     "isaacsim.test.utils", # Used to suppress NumPy coverage errors
     "omni.hydra.scene_delegate", # required for fabric time to update,
-    "omni.isaac.ml_archive",
     "omni.kit.test",
     "omni.physx.ui"
 ]

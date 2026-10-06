@@ -28,7 +28,6 @@ name = "isaacsim.robot_motion.motion_generation.tests"
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -41,7 +40,6 @@ stdoutFailPatterns.exclude = [
 [[test]]
 timeout = 900
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 
 args = [

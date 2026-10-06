@@ -17,7 +17,6 @@ writeTarget.kit = true
 "isaacsim.robot_motion.schema" = {}
 "omni.kit.actions.core" = {}
 "omni.kit.menu.utils" = {}
-"omni.kit.pip_archive" = {}
 "omni.kit.property.usd" = {}
 "omni.kit.uiapp" = {}
 "omni.kit.window.property" = {}

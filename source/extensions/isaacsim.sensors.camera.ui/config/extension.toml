@@ -23,7 +23,6 @@ name = "isaacsim.sensors.camera.ui"
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -32,7 +31,6 @@ args = [
 [[test]]
 dependencies = [
     "isaacsim.test.utils",
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--enable",

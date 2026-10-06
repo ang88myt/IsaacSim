@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-notebooks.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-notebooks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim.iml" filepath="$PROJECT_DIR$/.idea/isaacsim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-app.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-asset.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-asset.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-asset-exporter-urdf.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-asset-exporter-urdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-asset-importer-mjcf.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-asset-importer-mjcf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-asset-importer-urdf.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-asset-importer-urdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-asset-importer-utils.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-asset-importer-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-asset-isolated.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-asset-isolated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-asset-transformer.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-asset-transformer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-asset-transformer-rules.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-asset-transformer-rules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-benchmark.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-benchmark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-code-editor.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-code-editor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-core.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-cortex.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-cortex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-example.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-extscache-kit.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-extscache-kit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-extscache-kit-sdk.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-extscache-kit-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-extscache-physics.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-extscache-physics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-gui.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-gui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-kernel.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-kernel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-replicator.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-replicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-rl.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-rl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-robot.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-robot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-robot-motion.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-robot-motion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-robot-schema.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-robot-schema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-robot-schema@1.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-robot-schema@1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-robot-setup.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-robot-setup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-ros1.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-ros1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-ros2.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-ros2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-sensor.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-sensor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-storage.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-template.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-test.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaacsim-utils.iml" filepath="$PROJECT_DIR$/.idea/isaacsim-utils.iml" />
+    </modules>
+  </component>
+</project>

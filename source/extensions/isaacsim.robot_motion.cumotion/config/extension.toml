@@ -21,7 +21,6 @@ writeTarget.python = true
 "isaacsim.core.experimental.materials" = {}
 "isaacsim.core.experimental.prims" = {}
 "isaacsim.robot_motion.experimental.motion_generation" = {}
-"omni.kit.pip_archive" = {} # import the base kit python archive
 
 [[python.module]]
 path = "pip_prebundle"

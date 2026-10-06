@@ -23,7 +23,6 @@ writeTarget.kit = true
 "isaacsim.storage.native" = {}
 "omni.graph.core" = {}
 "omni.kit.asset_converter" = {}
-"omni.kit.pip_archive" = {} # pulls in numpy
 "omni.kit.primitive.mesh" = {} # needed for mesh creation commands
 "omni.kit.uiapp" = {}
 "omni.kit.viewport.window" = {} # snippet tests need this
@@ -43,7 +42,6 @@ name = "isaacsim.test.collection.tests"
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -54,7 +52,6 @@ timeout = 900
 dependencies = [
     "isaacsim.ros2.bridge",
     "isaacsim.test.utils",
-    "omni.isaac.ml_archive",
     "omni.kit.window.toolbar",
 ]
 

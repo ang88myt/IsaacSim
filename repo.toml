@@ -228,7 +228,7 @@ sln_file = "isaac-sim.sln"
 link_host_toolchain = true   # This requires Microsoft Visual Studio BuildTools installed.
 
 # Filter on Visual Studio version e.g.: Visual Studio 2022. Empty string will match all years and prioritize the newest.
-vs_version = "18"
+vs_version = "vs2022"
 
 "env:USE_VS_2026==true".vs_version = "18"
 "env:USE_VS_2026==true".msvc_version = "v145"
@@ -240,9 +240,9 @@ vs_version = "18"
 # Visual Studio path; This will be used if the user would like to point to a specific VS installation rather than rely on heuristic locating.
 # vs_path = "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\"
 
-"token:in_ci==false".version_check_vs_version = "18"
-"token:in_ci==false".version_check_msvc_version = "v145"
-"token:in_ci==false".version_check_msbuild_version = "18"
+"token:in_ci==false".version_check_vs_version = "17"
+"token:in_ci==false".version_check_msvc_version = "v143"
+"token:in_ci==false".version_check_msbuild_version = "17"
 "token:in_ci==false".version_check_winsdk_version = "10.0.26100.0"
 
 # Filter specifically to "Enterprise", "Professional", or "Community" editions of Visual Studio

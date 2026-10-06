@@ -31,7 +31,6 @@ exclude = ["Ogn*Database.py"]
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -44,7 +43,6 @@ stdoutFailPatterns.exclude = [
 [[test]]
 timeout = 900
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 stdoutFailPatterns.exclude = [
     "*[Error] [omni.graph.core.plugin] /TestGraph/Template_isaacsim_robot_manipulators_IsaacGripperController: [/TestGraph] OmniGraph Error: No robot prim found for the articulation controller*",

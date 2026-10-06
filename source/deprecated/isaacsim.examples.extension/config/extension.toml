@@ -29,14 +29,12 @@ name = "isaacsim.examples.extension.tests"
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 
 [[test]]
 timeout = 900
 dependencies = [
     "isaacsim.test.utils",
-    "omni.isaac.ml_archive",
     "omni.kit.ui_test",
 ]
 args = [

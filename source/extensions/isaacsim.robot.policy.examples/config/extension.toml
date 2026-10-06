@@ -49,7 +49,6 @@ name = "physx"
 enabled = true
 timeout = 900
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--enable",
@@ -118,7 +117,6 @@ dependencies = [
     "isaacsim.physics.newton",
     "isaacsim.physics.newton.tensors",
     "isaacsim.test.utils", # Used to suppress NumPy coverage errors
-    "omni.isaac.ml_archive"
 ]
 args = [
     "--enable",

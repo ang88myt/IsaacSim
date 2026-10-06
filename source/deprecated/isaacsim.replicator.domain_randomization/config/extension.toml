@@ -36,7 +36,6 @@ exclude = ["Ogn*Database.py"]
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -44,7 +43,6 @@ args = [
 
 [[test]]
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--enable",

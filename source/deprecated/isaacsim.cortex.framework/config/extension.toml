@@ -27,7 +27,6 @@ name = "isaacsim.cortex.framework"
 name = "startup"
 
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 
 args = [
@@ -39,7 +38,6 @@ stdoutFailPatterns.exclude = [
 
 [[test]]
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 stdoutFailPatterns.exclude = [
     "*WARNING: cannot load logging configuration file*", # exclude warning as failure

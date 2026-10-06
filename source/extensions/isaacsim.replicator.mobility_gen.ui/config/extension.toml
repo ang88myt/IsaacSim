@@ -19,7 +19,6 @@ writeTarget.kit = true
 "isaacsim.gui.components" = {}
 "isaacsim.replicator.experimental.mobility_gen" = {}
 "isaacsim.replicator.mobility_gen.examples" = {}
-"omni.kit.pip_archive" = {}
 "omni.kit.uiapp" = {}
 "omni.kit.usdz_export" = {}
 

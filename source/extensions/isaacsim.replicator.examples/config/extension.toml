@@ -348,7 +348,6 @@ dependencies = [
     "isaacsim.cortex.examples",
     "isaacsim.examples.interactive",
     "isaacsim.test.utils",
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--enable",

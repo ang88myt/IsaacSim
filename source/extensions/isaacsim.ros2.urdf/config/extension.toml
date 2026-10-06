@@ -15,7 +15,6 @@ writeTarget.kit = true
 "isaacsim.core.deprecation_manager" = {}
 "isaacsim.gui.components" = {}
 "isaacsim.ros2.bridge" = {}
-"omni.kit.pip_archive" = {} # import the base kit python archive
 "omni.ui" = {}
 
 [[python.module]]

@@ -16,7 +16,6 @@ writeTarget.kit = true
 "isaacsim.core.experimental.utils" = {}
 "isaacsim.core.simulation_manager" = {}
 "isaacsim.robot.schema" = {}
-"omni.kit.pip_archive" = {} # pulls in numpy
 "omni.physx.tensors" = {}
 "omni.timeline" = {} # Needed for simulation to occur
 "omni.usd" = {}

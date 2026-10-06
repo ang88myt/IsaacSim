@@ -17,7 +17,6 @@ warning = "Extension deprecated since Isaac Sim 6.0.0. See isaacsim.robot_motion
 
 [dependencies]
 "isaacsim.core.deprecation_manager" = {}
-"omni.kit.pip_archive" = {}
 
 [[python.module]]
 path = "pip_prebundle"

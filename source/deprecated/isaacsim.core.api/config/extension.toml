@@ -21,7 +21,6 @@ warning = "Extension deprecated since Isaac Sim 6.0.0 in favor of the Core Exper
 "isaacsim.core.version" = {}
 "isaacsim.storage.native" = {}
 "omni.hydra.usdrt_delegate" = {}
-"omni.isaac.core_archive" = {}
 "omni.kit.material.library" = {optional = true} # OmniGlass
 "omni.kit.stage_templates" = {}
 "omni.kit.usd.layers" = {}
@@ -29,7 +28,6 @@ warning = "Extension deprecated since Isaac Sim 6.0.0 in favor of the Core Exper
 "omni.physics.physx" = {}
 "omni.physics.stageupdate" = {}
 "omni.physx.tensors" = {}
-"omni.pip.compute" = {} # scipy
 "omni.usd.schema.semantics" = {}
 "omni.warp.core" = {}
 
@@ -46,7 +44,6 @@ recursive = false
 [[test]]
 name = "startup"
 dependencies = [
-    "omni.isaac.ml_archive",
 ]
 args = [
     "--/app/settings/fabricDefaultStageFrameHistoryCount=3",
@@ -56,7 +53,6 @@ args = [
 timeout = 900
 dependencies = [
     "isaacsim.core.cloner",
-    "omni.isaac.ml_archive",
     "omni.kit.renderer.core",
 ]
 
